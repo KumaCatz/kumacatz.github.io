@@ -1,0 +1,77 @@
+/* dang I look so hot */
+/* Cascading Style Sheet */
+/* Cascading - it takes latter info as more important */
+/* classes are used to stylish the HTML content, for example: */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #deffccde;
+}
+img {
+    border: 10px solid green;
+}
+h1 {
+border: 5px dotted pink;
+}
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+}
+cite {
+    font-size: 1.5rem;
+}
+/* .(dots) on the beginning of the tag are used to estabilish classes, that can be called afterwards by the HTML */
+img {
+    max-height: 100%;
+    max-width: 100%;
+/* tem a classe de imagem no CSS tambem, mas eh algo que eh bom recalibrar a imagem antes de colocar no site */
+}
+.bigbold {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.italicgreen {
+    font-style: italic;
+    color:rgb(0, 66, 0)
+}
+/* a ":" often denominates a sudo-class, that's used to separate more complex classes in little parts */
+/* also, sudo-classes often require a specific order of things to go to work */
+/* last, a "space" indicates hierarchy too: parents, siblings, childs, descendents, ancestors */
+ul a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: brown;
+    font-size: 2rem;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    color: green;
+    font-weight: normal;
+}
+a:hover {
+    color: orangered;
+    text-decoration: underline;
+    background-color: greenyellow;
+}
+/* get on my link: */
+a.doloremdolores:link {
+    color: black;
+}
+a.doloremdolores:visited {
+    color: purple;
+}
+a.doloremdolores:hover {
+    color: rgb(125, 16, 16);
+    text-decoration: none;
+}
+/* and that's how you create hierarchy on a CSS: by specifying the tag and restricting it by pertencing it in another class */
+h3, h4 {
+    color:red;
+}
+/* classes podem ser agrupadas tambem, com "," */
+#myid {
+    background-color: rgb(243, 243, 177);
+}

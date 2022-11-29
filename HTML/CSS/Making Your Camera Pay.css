@@ -1,0 +1,43 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
+}
+strong {
+    font-weight: bold;
+    color:brown;
+}
+em {
+    text-decoration: underline;
+    color:brown;
+}
+blockquote {
+    background-color: antiquewhite;
+    line-height: 1.3rem;
+    text-align: center;
+}
+blockquote cite {
+    font-size: .9rem;
+}
+blockquote p em{
+    text-decoration: none;
+    color: black;
+}
+ol {
+    line-height: 1.7rem;
+    text-decoration: underline;
+}
+footer {
+    line-height: 4rem;
+}
+footer a.finishlink:link {
+    text-decoration: none;
+
+}
+footer a.finishlink:visited {
+    text-decoration: none;
+    
+}
+footer a.finishlink:hover {
+    text-decoration: underline;
+    font-size: 1.2rem;
+}

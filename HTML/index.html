@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first web page</title>
+    <link href="css/style.css" rel="stylesheet"><!--this one here is used to call the .css document-->
+    <style>
+        h1 {
+            text-align: center;
+        }
+        .Minty {
+            color: rgb(9, 175, 9);
+            font-weight: bold;
+        }
+    </style>
+    <!-- it's possible to make CSS styles on each separate webpage, but for oblivious reasons, highly discouraged-->
+</head>
+<body>
+    <h1>All About Me</h1>
+    <blockquote>
+        <p class="Minty">Só uma vez se fez uma trágica pergunta: Quem sou eu? Assustou-se tanto que parou completamente de pensar.</p>
+        <cite>Clarice Lispector, A Hora da Estrela</cite>
+    </blockquote>
+
+    <p style="color: rgb(125, 33, 150)">Hello, world! My name is Haim. I live in Israel. Bat Yam is excrutiating!</p>
+    <!-- about CSS again, styles can be also put inside tags themselves. again, unadvisable -->
+
+    <!--Classes are used to retrieve something specific from the CSS file and stylish the text accordingly:-->
+    <p class="bigbold italicgreen">Here is a picture of a kitten. Because I like cats and pics.</p>
+    <!-- to use two classes on the same tag, just have a "space" between them -->
+
+    <img src="http://placekitten.com/200/300" alt="Cute kitten cat."  title="Cute cat"><!-- ps: attributes are interexchangeable!does not matter the order --><!-- also, "alt" attributes must always accompain an image tag -->
+
+    <p>One of my hobbies is playing videogames. I play in my computer when I'm free, I mostly like strategy games.</p>
+
+    <h2>My fine hobbies</h2>
+
+    <ul>
+        <li>Playing music</li>
+        <li>Watching cartoons</li>
+        <li>Eating falafel</li>
+        <li>Making food</li>
+    </ul>
+
+    <p style="color: green">Visit my <a href="hobbies.html" title="some siick stuff"><!-- title attributes are used to show description when hovering the link -->hobbie's page</a>!</p>
+
+    <h2>How to make a PB&J sandwitch:</h2>
+    <ol>
+        <li>Grab two slices of bread, peanut butter and jelly</li>
+        <li>Spread the things in the slices of bread</li>
+        <li>Get the slices of bread together on the side where the spread is</li>
+        <li>Eat!</li>
+    </ol>
+    <h2>Writing garbage:</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi maiores voluptates cum quis maxime <strong>blanditiis asperiores</strong> tempore totam ipsam dignissimos? <a href="http://www.frontendmasters.com" target="_blank" class="doloremdolores">Dolorem dolores</a> illo dignissimos quasi facilis cupiditate, natus obcaecati error quaerat. <em>Corporis ipsa maxime</em>, soluta hic veniam unde ex rem illum ipsam!</p>
+    <h2>My fine links:</h2>
+    <ul>
+        <li><a href="https://web.whatsapp.com" target="_blank">WhatsApp</a></li>
+        <li><a href="http://www.google.com" target="_blank">Google</a></li>
+    </ul>
+
+    <h3>My favourite music links</h3>
+    <h4>My favourite classical music websites</h4>
+    <h5>My favourite Beethoven music websites</h5>
+    <h6 id="myid">My favourite website about Beethoven's 9th Symphony</h6>
+
+
+</body>
+</html>
